@@ -1,0 +1,147 @@
+/* Empty. Add your own CSS if you like */
+.form-bg{
+	background: url(../img/bg.jpg) center center !important;
+    background-size: cover !important;
+    width: 100%;
+    height: 100%;
+
+}
+.ion-power {
+	font-size:10px !important;
+	color:#fd5c63;
+}
+.ion-plus {
+	font-size:10px !important;
+	color:#146eb4;
+}
+a{
+	text-decoration: none;
+}
+
+.todolist{
+	background-color: #f7f7f7;
+}
+.lists{
+	border-top:5px solid #00a78e;
+	margin-top: 5px;
+}
+label {
+}
+label i{
+	font-size: 25px;
+	background-color: #00a78e;
+	text-align: center;
+	width:50px !important;
+	color: #ffffff;
+}
+label input{
+	height:35px !important;
+}
+.item .button{
+	background: none !important;
+}
+.item i{
+	float: right;
+	margin-top:-35px;
+	font-size: 18px !important;
+}
+
+.lists h2{
+	font-size:20px;
+	color: #fd5c63;
+	line-height:5px;
+	margin-top: 0px;
+}
+.lists h3{
+	font-size:16px;
+	text-align: justify;
+	padding-top:3px;
+	color: #929292;
+	margin-bottom: 0px !important;
+
+}
+.lists h3 b{
+	font-size:16px;
+	text-align: justify;
+	padding-top:3px;
+	color:#00a4e4;
+	line-height:24px;
+}
+.lists h4 b{
+	font-size:16px;
+	text-align: justify;
+	padding-top:3px;
+	color:#00a4e4;
+	line-height:24px;
+}
+.lists h4{
+	font-size:16px;
+	text-align: justify;
+	padding-top:3px;
+	color: #929292;
+	margin-top: 0px !important;
+}
+.form-logo{
+	padding-top:50px;
+}
+.title h3{
+	text-align: center;
+	color:#016773 !important;
+    text-shadow: 1px 1px 1px #205081;
+    font-size:25px !important;
+}
+.title form h3{
+	text-align: center;
+}
+.title input{
+    color: #ffffff !important;
+    padding-left:10px !important;
+    height:50px !important;
+    font-size:16px !important;
+    border-radius:3px !important;
+    border-bottom:2px solid white !important; 
+}
+.create-todo{
+	background-color:;
+}
+.title ::-webkit-input-placeholder { 
+  color: white !important;
+}
+.title ::-moz-placeholder { /* Firefox 19+ */
+  color: white !important;
+}
+
+.wrap form h4{
+	font-size:20px;
+	color: #146eb4;
+}
+
+
+
+.todolist  p{
+	color:#02a388;
+}
+
+
+.wrap input{
+    color: #929292 !important;
+    padding-left:10px !important;
+    height:50px !important;
+    font-size:16px !important;
+    border-bottom:2px solid #146eb4 !important; 
+}
+.wrap button{
+	background:#146eb4;
+	color: #ffffff;
+	border-radius:20px; 
+}
+.wrap button:hover{
+	background:#146eb4;
+	color: #ffffff;
+	border-radius:20px; 
+}
+
+.todolist i{
+	float: left;
+	font-size: 
+}

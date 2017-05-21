@@ -1,0 +1,31 @@
+<ion-view view-title="Create" >
+	<ion-nav-bar class="bar-stable">
+	      <ion-nav-back-button>
+	      </ion-nav-back-button>
+	</ion-nav-bar>
+
+<ion-content class="create-todo">
+
+	<div class="wrap"> 
+		<form class="padding">
+			<div class="list">
+			<label class="item-input col">
+				<h4>Title:</h4>
+				<input type="text" name="title" ng-model="todoData.titles" placeholder="Ex: Shop">
+			</label>
+			<label class="item-input col">
+				<h4>Date:</h4>
+				<input type="text" ng-model="todoData.date" name="date" placeholder="Ex: 01/08/2016"/>
+			</label>
+			<label class="item-input col">
+				<h4>What is to be done?</h4>
+				<input type="text" name="title" ng-model="todoData.hints" placeholder="Ex: Need to purchase some vegetable..etc">
+			</label>
+			</div>
+			<button class="button button-full  button-danger" ng-click="todo(todoData)">ADD</button>
+		</form>
+	</div>
+
+</ion-content>
+
+</ion-view>

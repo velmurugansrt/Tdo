@@ -1,0 +1,28 @@
+<ion-view view-title="Todo List" >
+
+<div class="bar bar-header">
+  <a href="#"><button class="button button-icon icon ion-power" ng-click="logout()"></button></a>
+  <div class="h1 title">Todo List</div>
+  <a href="#/todo" class="button button-icon icon ion-plus"></a>
+</div>
+
+
+
+<ion-content class="has-header todolist  padding"> 
+<div class="search col">
+<label class="row">
+	<i class="icon ion-search col-10"></i><input type="text" ng-model="search" placeholder="Search" class="col-90">
+</label>
+</div>
+<div class="item item-body lists item-icon-right" ng-repeat="todo in todos|filter:search|filter:Uid">
+<i class=" button icon ion-android-delete col-offset-90" ng-click="delete(todo)"></i>
+    		<h2>{{todo.Title}}</h2>
+			<h3><b>Date:</b> {{todo.date}}</h3>
+		    <h4 class="note"><b>Hints:</b> {{todo.Hints}}</h4>
+</div> 
+<form>
+
+</form>
+
+</ion-content>
+</ion-view>

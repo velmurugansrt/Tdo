@@ -1,0 +1,25 @@
+<ion-view>
+<ion-content  class="form-bg">
+	<div>
+		<div class="form-logo padding">
+	      <img src="img/todo list.png" width="100" height="100" class="col-offset-33">
+	    </div>
+	    <form class="title padding">
+	    <h3>SignUp</h3>
+	      <div class="list">
+	      	<label class="item-input col">
+	          <input type="text" ng-model="signData.username" name="username" placeholder="Username " >
+	        </label>
+	        <label class="item-input col">
+	          <input type="email" ng-model="signData.email" name="email" placeholder="Mail" >
+	        </label>
+	        <label class="item-input col">
+	          <input type="password" ng-model="signData.password" name="password" placeholder="Password" >
+	        </label>
+	          <button class="button button-full  button-danger" ng-click="sign(signData)">SignUp</button>
+	          <a href="#/login" class="button button-outline button-balanced button-block">Already registered? sign in!</a>
+	      </div>
+	    </form>
+    </div>
+</ion-content>
+</ion-view>
